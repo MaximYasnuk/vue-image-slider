@@ -1,0 +1,74 @@
+.component-image-slider {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+.component-image-slider > .slides {
+	display: block;
+	white-space: nowrap;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-size: 0;
+	transition: left 0.8s ease;
+}
+
+.component-image-slider > .slides > .slide {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	overflow: hidden;
+}
+
+.component-image-slider > .slides > .slide > img {
+	display: block;
+	width: auto;
+	height: 100%;
+	position: relative;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+}
+
+.component-image-slider > .prev,
+.component-image-slider > .next {
+	position: absolute;
+	background: none;
+	border: none;
+	width: 40px;
+	height: 40px;
+	top: 50%;
+	margin-top: -20px;
+	color: #fff;
+	font-size: 46px;
+	line-height: 1;
+	cursor: default;
+}
+
+.component-image-slider > .prev {
+	left: 20px;
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.75);
+}
+
+.component-image-slider > .next {
+	right: 20px;
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.75);
+}
+
+.component-image-slider > .prev:hover,
+.component-image-slider > .next:hover {
+	color: #ddd;
+}
+
+.component-image-slider > .prev:focus,
+.component-image-slider > .next:focus {
+	outline: dotted 1px #ccc;
+}
+
+.component-image-slider > .prev:hover:focus,
+.component-image-slider > .next:hover:focus {
+	outline: none;
+}

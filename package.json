@@ -1,0 +1,31 @@
+{
+	"name": "vue-image-slider",
+	"version": "1.0.0",
+	"description": "",
+	"main": ".eslintrc.js",
+	"scripts": {
+		"start": "neutrino start",
+		"build": "neutrino build",
+		"test": "neutrino test",
+		"test:watch": "neutrino test --watch",
+		"coverage": "neutrino test --coverage"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Romserg/vue-image-slider.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Romserg/vue-image-slider/issues"
+	},
+	"devDependencies": {
+		"neutrino": "6.1.5",
+		"neutrino-preset-fabrika": "2.1.3"
+	},
+	"dependencies": {
+		"vue": "*"
+	},
+	"homepage": "https://github.com/Romserg/vue-image-slider#readme"
+}
